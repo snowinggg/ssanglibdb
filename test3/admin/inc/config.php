@@ -15,7 +15,7 @@ $dbname = 'fashiony_ogs';
 $dbuser = 'root';
 
 // Database Password
-$dbpass = 'gjf820FH@3';
+$dbpass = 'root';
 
 // Defining base url
 define("BASE_URL", "http://fashionys.com/");
