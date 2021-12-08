@@ -406,11 +406,6 @@ CREATE TABLE `tbl_end_category` (
   `mcat_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-DROP TABLE tbl_end_category;
---
--- Dumping data for table `tbl_end_category`
---
-
 INSERT INTO `tbl_end_category` (`ecat_id`, `ecat_name`, `mcat_id`) VALUES
 (1, 'Korea food', 1),
 (2, 'Eastern food', 1),
@@ -498,10 +493,7 @@ INSERT INTO `tbl_end_category` (`ecat_id`, `ecat_name`, `mcat_id`) VALUES
 (84, 'Korean Autobiography', 21),
 (85, 'Foreign Autobiography', 21);
 -- --------------------------------------------------------
-DROP TABLE tbl_end_category
---
--- Table structure for table `tbl_faq`
---
+
 
 CREATE TABLE `tbl_faq` (
   `faq_id` int(11) NOT NULL,
@@ -713,10 +705,6 @@ CREATE TABLE `tbl_mid_category` (
   `tcat_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-DROP TABLE tbl_mid_category;
---
--- Dumping data for table `tbl_mid_category`
---
 
 INSERT INTO `tbl_mid_category` (`mcat_id`, `mcat_name`, `tcat_id`) VALUES
 (1, 'Cook', 3),
@@ -1129,14 +1117,6 @@ INSERT INTO `tbl_product` (`p_id`, `p_name`, `p_old_price`, `p_current_price`, `
 (81, 'Black Wool Beanie & Bobble Hat For Unisex', '10', '1', 9, 'product-featured-81.jpg', '<p>These Soft Knit Cap is a warm and comfortable choice.&nbsp;</p><p>Soft material will make you feel so comfortable and will make you look so special in the crowd .</p><p>This Men\'s Soft Lined Thick Knit Cap Warm Winter beanies Hat with Fully lined it warmth and comfort, very soft.</p>', '<p>These Soft Knit Cap is a warm and comfortable choice.&nbsp;</p><p>Soft material will make you feel so comfortable and will make you look so special in the crowd .</p><p>This Men\'s Soft Lined Thick Knit Cap Warm Winter beanies Hat with Fully lined it warmth and comfort, very soft.</p>', '<p>These Soft Knit Cap is a warm and comfortable choice.&nbsp;</p><p>Soft material will make you feel so comfortable and will make you look so special in the crowd .</p><p>This Men\'s Soft Lined Thick Knit Cap Warm Winter beanies Hat with Fully lined it warmth and comfort, very soft.</p>', '<p>Fashionys.com Standard Terms &amp; Conditions</p>', '<p>Fashionys.com Standard Return Policy<br></p>', 9, 1, 1, 1);
 
 -- --------------------------------------------------------
-DELETE FROM tbl_product
-Where p_id = 102
-
-DROP TABLE tbl_product
---
--- Table structure for table `tbl_product_color`
---
-DROP TABLE tbl_product;
 
 CREATE TABLE `tbl_product_color` (
   `id` int(11) NOT NULL,
@@ -1666,10 +1646,6 @@ CREATE TABLE `tbl_top_category` (
   `show_on_menu` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-DROP TABLE tbl_top_category;
---
--- Dumping data for table `tbl_top_category`
---
 
 INSERT INTO `tbl_top_category` (`tcat_id`, `tcat_name`, `show_on_menu`) VALUES
 (1, 'Humanities.', 1),
